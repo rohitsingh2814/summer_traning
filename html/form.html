@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Information form</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="enter your name" required maxlength="15"> <br>
+        
+        <label for="email">Email</label>
+        <input type="email" required placeholder="email"><br>
+        
+        <label for="textarea">write yourself</label>
+        <textarea name="write" id="" placeholder=""write about ypurself></textarea><br>
+         
+        <label for="password">password</label>
+         <input type="password" type="enter your password"><br>
+         
+         <label for="age">age:</label>
+         <input type="number" max="50" min="18" value="18">
+        
+         <label for="gender">Gender: </label>
+         <input type="radio" name="gender" value="male">male
+         <input type="radio" name="gender" value="female">female <br>
+        
+         <label for="hobbeies">hobbies</label>
+        <input type="checkbox" name="interest" value="music">music
+        <input type="checkbox" name="interest" value="sports">sports <br>
+        
+        <label for="">favorite country</label>
+        <select name="fav country" id="">
+            <option value="australia">austrlia</option>
+            <option value="india">india</option>
+            <option value="china">china</option>
+        </select><br>
+
+        <label for="">favorite subject</label>
+        <input type="text" list="subject">
+        <datalist id="subject">
+            <option value="math">math</option>
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+        </datalist>
+       
+        <label for="experince">experince</label>
+        <input type="range" min="2" max="10" value="5"><br>
+        
+        <label for="dob">date of birth</label>
+        <input type="date" name="dob"><br>
+        
+        <label for="current time">current time</label>
+        <input type="time">
+       <!-- input is also month,week  -->
+        
+       <label for="seacch">search</label>
+        <input type="search"><br>
+        
+        <label for="fav color">color</label>
+        <input type="color">
+        
+        <label for="url">url</label>
+        <input type="url">
+        
+        <fieldset>
+            <legend>personal Information</legend>
+        
+        </fieldset>
+        
+        <button>submit</button>
+
+    </form>
+</body>
+</html>
